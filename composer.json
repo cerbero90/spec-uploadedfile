@@ -1,0 +1,11 @@
+{
+    "require": {
+        "phpspec/phpspec": "2.0.*@dev",
+        "symfony/http-foundation": "2.3.*@dev"
+    },
+
+    "config": {
+        "bin-dir": "bin/"
+    },
+    "autoload": {"psr-0": {"": "src"}}
+}
