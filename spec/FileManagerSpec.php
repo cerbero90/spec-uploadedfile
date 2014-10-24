@@ -10,7 +10,7 @@ class FileManagerSpec extends ObjectBehavior
 {
     function let(UploadedFile $file)
     {
-        $file->willBeConstructedWith(array('path', 'originalName'));
+        $file->beConstructedWith(array('path/to/originalName.foo'));
     }
 
     function it_saves_an_uploaded_file(UploadedFile $file)
